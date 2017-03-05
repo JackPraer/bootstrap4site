@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo');
+
+*, h1, h2, h3, h4, h5, h6, a, p
+{
+    font-family: 'Baloo', cursive;
+}
+.header
+{ 
+    width: 100%;
+    background: #2C3E50;
+    padding: 35px;   
+    position: fixed;
+    z-index: 11;
+}
+
+.menu
+{
+    color: white;
+    font-size: 1.3em;
+    text-align: center;
+}
+h1
+{
+    font-size: 1.5em
+}
+.menu a
+{
+    color: white;   
+    margin-top: 12px;
+    padding-left: 5px;
+}
+.menu a:hover
+{
+    color: #18bc9c;
+    text-decoration: none;  
+}
+/*content*/
+.content-1
+{
+    
+    height: 100%;
+    background-color: #18bc9c;
+    padding-bottom: 30px; 
+}
+.profile
+{
+    margin-top: 250px;
+}
+.content-1 h1
+{
+    font-size: 4em;
+    color: white;
+    margin-top: 100px;
+}
+.content-1 hr
+{
+    border: none; /* Убираем границу для браузера Firefox */
+    color: red; /* Цвет линии для остальных браузеров */
+     background-color: white;/* Цвет линии для браузера Firefox и Opera */  
+    height: 5px; /* Толщина линии */
+    width: 30%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.content-1 p
+{
+    color: white;
+    font-size: 1.5em;
+}
+
+
+
+
+
+/*portfolio*/
+
+#portfolio
+{    
+
+    background-color: #ededed;
+
+}
+
+#portfolio h1
+{
+    font-size: 4em;
+    color: #2C3E50;
+    margin-top: 30px;
+}
+
+#portfolio hr
+{
+    border: none; /* Убираем границу для браузера Firefox */
+    color: red; /* Цвет линии для остальных браузеров */
+     background-color: #2C3E50;/* Цвет линии для браузера Firefox и Opera */  
+    height: 5px; /* Толщина линии */
+    width: 30%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.pic
+{
+    padding-bottom: 100px;
+}
+
+
+/*about*/
+#about
+{    
+    height: 100%;
+    background-color: #18bc9c;
+}
+
+#about h1
+{
+    font-size: 4em;
+    color: white;
+    margin-top: 30px;
+}
+
+#about hr
+{
+    border: none; /* Убираем границу для браузера Firefox */
+    color: red; /* Цвет линии для остальных браузеров */
+     background-color: white;/* Цвет линии для браузера Firefox и Opera */  
+    height: 5px; /* Толщина линии */
+    width: 30%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#portfolio  p
+{
+    color: white;
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+.download
+{
+  font-size: 1em;
+    padding: 50px;
+   
+}
+.download a
+{
+    font-size: 1em;
+    color: white; 
+    padding-left: 10px;
+    padding-right: 10px;
+
+    padding-top: 5px;
+     border: 2px solid white;
+     border-radius: 5px;
+    transition: 1s;
+ 
+ 
+}
+.download a:hover
+{
+    color: #18bc9c;
+    background-color: white;
+    text-decoration: none;  
+    transition: 1s;
+}
+
+#about
+{
+    padding-top: 50px;
+}
+
+/*contact*/
+#contact
+{    
+    height: 100%;
+    background-color: #ededed;
+
+}
+
+#contact hr
+{
+    border: none; /* Убираем границу для браузера Firefox */
+    color: red; /* Цвет линии для остальных браузеров */
+     background-color: #2C3E50;/* Цвет линии для браузера Firefox и Opera */  
+    height: 5px; /* Толщина линии */
+    width: 30%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.send
+{
+    margin-top: 100px;
+    margin-bottom: 100px;
+  
+}
+
+.btn
+{
+    background-color: #18bc9c;
+      border-color: #18bc9c;
+}
+.btn:hover
+{
+     background-color: rgb(14, 107, 89);
+}
+.ender
+{
+    padding-top: 50px;
+   background-color: #2c3e50;
+    font-size: 0.8em;
+}
+.ender h2
+{
+    color:#ededed;
+    font-size: 2em;
+    padding-bottom: 20px;
+}
+
+.ender a
+{
+    color: #18bc9c;
+    text-decoration: none;
+}
+
+.ender i
+{
+    font-size: 40px;
+    color: #ededed;
+    margin: 5px;
+    transition: 2s;
+}
+
+.ender i:hover
+{     
+ 
+    transition: 0.3s;
+}
+.fa-facebook-square:hover
+{
+    color: #4867aa;
+}
+.fa-git-square:hover
+{
+    color: #24292e;
+}
+.fa-google-plus-square:hover
+{
+    color: #de5145;
+}
+.fa-pinterest-square:hover
+{
+    color: #bd081c;
+}
+.fa-steam-square:hover
+{
+    color: #171a21;
+}
+.fa-twitter-square:hover
+{
+    color: #41abe1;
+}
+/*footer*/
+
+.footer
+{
+    height: 60px;
+    background-color: #233140;
+    color: white;
+    text-align: center;
+    font-size: 0.55em;   
+}
+.footer p
+{
+    padding-top: 20px;
+    font-family: Lato;
+ 
+}
+  
+
+
